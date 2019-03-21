@@ -1,0 +1,31 @@
+Created by: ZHOU XU
+Email: zhouxullx@whu.edu.cn
+
+The code for the paper of
+Zhou Xu, Shuai Li, Xiapu Luo, Jin Liu, Tao Zhang, Yutian Tang, Jun Xu, Peipei Yuan, and Jacky Keung. 
+"TSTSS: A Two-Stage Training Subset Selection Framework for Cross Version Defect Prediction" 
+which will be published to the Journal of Systems and Software.
+
+Please kindly cite our paper if you would like to use the code for your research.
+
+%%%
+1. Running demo_TSTSS once loading the data of prior version and current version
+
+2. Function SMRS_Main.m is used to select the modules from the prior version in the first stage
+   The return of SMRS_Main.m is the selected module subset
+
+3. Function DS3_Main.m is used to further select the modules from the prior version in the second stage
+   The return of DS3_Main.m is the index of selected modules under different thresholds
+   
+4. The .m files in SMRS folder are the related subfunctions to select the module subset in the first stage
+
+5. The .m files in DS3 folder are the related subfunctions to select the module subset in the second stage
+
+6. After obtaining the final selected module subset from the prior version, any classification model can be
+   trained on the subset and then predict the modules of the current version.
+
+MATLAB R2014a, a computer with 16 * Inter(R)Core(TM), 3.60 GHz Intel i7-7820X CPU and 32 GB Memory, 64bit operating system 
+%%%
+
+%%% NOTE %%%
+The code is free for academic use only, and shall not be used, rewritten, or adapted as the basis of a commercial product without first obtaining permission from the authors. The authors make no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty.

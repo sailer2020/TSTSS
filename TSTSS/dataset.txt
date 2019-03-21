@@ -1,0 +1,24 @@
+The .mat files in the dataset folder are the used defect data in our experiment
+
+Each row in the .mat file represents a software module
+
+Each column in the .mat file represents a module feature
+
+Total 67 defect data are included in the folder
+
+The brief descriptions of these projects are as follows:
+
+(1) ant project is a Java-based, shell independent build tool
+(2) camel project is a integration framework based on Enterprise Integration Patterns
+(3) ivy project is a dependence manager focusing on flexibility and simplicity
+(4) jedit project is a cross platform programmer's text editor
+(5) log4j project is a logging package for printing log output
+(6) lucene is a free and open-source information retrieval software library
+(7) poi project is Java API for Microsoft documents format
+(8) synapse project is a lightweight and high-performance Enterprise Service Bus
+(9) velocity project is a template language engine
+(10) xalan is an XSLT processor for transforming XML documents into HTML, text, or other XML document types
+(11) xerces project is a Java-based XML parser
+(12) Prop1, Prop2, Prop3, Prop4, Prop5 are 5 industrial projects belonging to the insurance domain
+(13) Prop 42 is an industrial project that is a tool that supports quality assurance in software development
+
